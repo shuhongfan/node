@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+<h1>的索引</h1>
+<table border="1">
+    <thead>
+        <tr>
+            <td>位置</td>
+            <td>大小</td>
+            <td>修改日期</td>
+        </tr>
+    </thead>
+    <tbody>
+        {{each files}}
+        <tr>
+            <td>{{$value}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</head>
+<body>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<script>
+    ;['abc','d','efg'].forEach(function (item,index) {
+        console.log(arguments)
+    })
+
+    $('div').each(function (index,item) {
+        console.log(arguments)
+    })
+
+    ;[].slice.call($('div')).forEach(function (item) {
+        console.log(arguments)
+    })
+</script>
+
+</body>
+</html>

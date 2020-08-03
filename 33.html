@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="node_modules/art-template/lib/template-web.js"></script>
+<script>
+    var ret=template.render('hello {{name}}',{
+        name:'jack'
+    })
+    console.log(ret)
+</script>
+</body>
+</html>

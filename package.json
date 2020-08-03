@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "math": "0.0.3",
+    "mongoose": "^5.9.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
